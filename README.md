@@ -24,7 +24,7 @@ Here's a walkthrough of implemented features:
 
 The following **optional** features are implemented:
 
-* Users can type a custom message so the app displays it in a custom toast.
+* Users can type a custom message which the app displays in a custom toast.
 
 GIF created with ...  
 
@@ -34,7 +34,8 @@ https://www.screentogif.com/
 ## Notes
 
 1.It was challenging seeing all of the new information and options available with android studio and trying to understand how to use them.
-2.I would say that understanding how activities and kotlin main activities files were connected was really hard at the beginning, but I understood how they were used and how they were connected using kotlin.
+
+ 2. I would say that understanding how activities and kotlin main activities files were connected was really hard at the beginning, but I understood how they were used and how they were connected using kotlin.
 
 
 ## License
