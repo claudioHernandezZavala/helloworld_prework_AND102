@@ -19,8 +19,12 @@ The following functionalites are completed:
 
 Here's a walkthrough of implemented features:
 
-![App walkthrough](https://user-images.githubusercontent.com/101302200/212523263-18bcb9fb-eff8-4460-9acb-bdf0fc3e66cc.gif)
 
+![App walkthrough](https://user-images.githubusercontent.com/101302200/212524396-cabc1123-9a9d-4c42-9f57-9e3e9c8369b7.gif)
+
+The following **optional** features are implemented:
+
+* Users can type a custom message so the app displays it in a custom toast.
 
 GIF created with ...  
 
