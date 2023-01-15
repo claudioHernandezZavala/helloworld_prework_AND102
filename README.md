@@ -33,9 +33,8 @@ https://www.screentogif.com/
 
 ## Notes
 
-1.It was challenging seeing all of the new information and options available with android studio and trying to understand how to use them.
-
-2. I would say that understanding how activities and kotlin main activities files were connected was really hard at the beginning, but I understood how they were used and how they were connected using kotlin.
+* It was challenging seeing all of the new information and options available with android studio and trying to understand how to use them. 
+*  I would say that understanding how activities and kotlin main activities files were connected was really hard at the beginning, but I understood how they were used and how they were connected using kotlin.
 
 
 ## License
