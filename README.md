@@ -2,7 +2,7 @@
 
 Submitted by: Claudio Andre Hernandez Zavala
 
-Helloworld is an android app that shows an image and introductory message, and allows pressing a button to display a Toast. the app also allows users to type a text which is displayed in a custom toast.
+Helloworld is an android app that shows an image and introductory message, and allows pressing a button to display a Toast. The app also allows users to type a text which is displayed in a custom toast.
 
 Time spent: 1 hour spent in total
 
