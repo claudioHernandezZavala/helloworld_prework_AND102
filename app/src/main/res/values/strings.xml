@@ -2,4 +2,9 @@
     <string name="app_name">Hello world</string>
     <string name="claudio_intro">Hello my name is Claudio and I love android development and dogs!</string>
     <string name="button_action">Say hello!</string>
+    <string name="custom_message_textview">Type a custom message to display a toast!</string>
+    <string name="custom_message_placeholder">Custom message</string>
+    <string name="custom_message_button">Show custom Message</string>
+    <string name="introductory_image_of_the_app_description">Introductory image of the app</string>
+    <string name="txtFieldHint">custom message</string>
 </resources>

@@ -9,37 +9,87 @@
 
     <TextView
         android:id="@+id/introTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:textColor="@color/purple_500"
+        android:layout_width="328dp"
+        android:layout_height="60dp"
         android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="20dp"
         android:text="@string/claudio_intro"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mainImageView" />
 
     <ImageView
         android:id="@+id/mainImageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="52dp"
         android:scaleType="centerCrop"
-        app:layout_constraintHorizontal_bias="0.498"
+        android:contentDescription="@string/introductory_image_of_the_app_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="48dp"
-        app:srcCompat="@drawable/dog"
-         />
+        app:srcCompat="@drawable/dog" />
 
     <Button
         android:id="@+id/hellobutton"
         android:layout_width="162dp"
         android:layout_height="53dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="20dp"
         android:text="@string/button_action"
+        app:cornerRadius="35dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/introTextView" />
+
+    <EditText
+        android:id="@+id/customMessageTextField"
+        android:layout_width="218dp"
+
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtFieldHint"
+        android:inputType="textPersonName"
+        app:circularflow_radiusInDP="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customMessageTxtView" />
+
+    <TextView
+        android:id="@+id/customMessageTxtView"
+        android:layout_width="265dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="78dp"
+        android:text="@string/custom_message_textview"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hellobutton" />
+
+    <Button
+        android:id="@+id/customMessageButton"
+        android:layout_width="129dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/custom_message_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toEndOf="@+id/customMessageTextField"
+        app:layout_constraintTop_toBottomOf="@+id/customMessageTxtView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
